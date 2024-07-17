@@ -1,8 +1,10 @@
 xrandr --output Virtual-1 --mode 1600x900 &
 
+# show the date in dwm's bar
 exec dwmbar_date &
 
-exec feh --bg-scale /home/qb/37.png &
+# set background with feh
+exec feh --bg-scale /path/to/image &
 
 exec picom &
 
