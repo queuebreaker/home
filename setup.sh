@@ -20,6 +20,7 @@ sudo make clean install
 cd ..
 cd surf/ || exit
 sudo make clean install
+cd ..
 
 mv dwm/ ~/dwm/
 mv dmenu/ ~/dmenu/
