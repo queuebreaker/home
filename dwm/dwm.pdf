@@ -1,0 +1,381 @@
+%!PS-Adobe-3.0
+%%Creator: groff version 1.23.0
+%%CreationDate: Tue Jul 16 14:19:49 2024
+%%DocumentNeededResources: font Times-Roman
+%%DocumentSuppliedResources: procset grops 1.23 0
+%%Pages: 1
+%%PageOrder: Ascend
+%%DocumentMedia: Default 612 792 0 () ()
+%%Orientation: Portrait
+%%EndComments
+%%BeginDefaults
+%%PageMedia: Default
+%%EndDefaults
+%%BeginProlog
+%%BeginResource: procset grops 1.23 0
+%!PS-Adobe-3.0 Resource-ProcSet
+/setpacking where{
+pop
+currentpacking
+true setpacking
+}if
+/grops 120 dict dup begin
+% The ASCII code of the space character.
+/SC 32 def
+/A/show load def
+/B{0 SC 3 -1 roll widthshow}bind def
+/C{0 exch ashow}bind def
+/D{0 exch 0 SC 5 2 roll awidthshow}bind def
+/E{0 rmoveto show}bind def
+/F{0 rmoveto 0 SC 3 -1 roll widthshow}bind def
+/G{0 rmoveto 0 exch ashow}bind def
+/H{0 rmoveto 0 exch 0 SC 5 2 roll awidthshow}bind def
+/I{0 exch rmoveto show}bind def
+/J{0 exch rmoveto 0 SC 3 -1 roll widthshow}bind def
+/K{0 exch rmoveto 0 exch ashow}bind def
+/L{0 exch rmoveto 0 exch 0 SC 5 2 roll awidthshow}bind def
+/M{rmoveto show}bind def
+/N{rmoveto 0 SC 3 -1 roll widthshow}bind def
+/O{rmoveto 0 exch ashow}bind def
+/P{rmoveto 0 exch 0 SC 5 2 roll awidthshow}bind def
+/Q{moveto show}bind def
+/R{moveto 0 SC 3 -1 roll widthshow}bind def
+/S{moveto 0 exch ashow}bind def
+/T{moveto 0 exch 0 SC 5 2 roll awidthshow}bind def
+% name size font SF -
+/SF{
+findfont exch
+[exch dup 0 exch 0 exch neg 0 0]makefont
+dup setfont
+[exch/setfont cvx]cvx bind def
+}bind def
+% name a c d font MF -
+/MF{
+findfont
+[5 2 roll
+0 3 1 roll % b
+neg 0 0]makefont
+dup setfont
+[exch/setfont cvx]cvx bind def
+}bind def
+/level0 0 def
+/RES 0 def
+/PL 0 def
+/LS 0 def
+% Enable manual feed.
+% MANUAL -
+/MANUAL{
+statusdict begin/manualfeed true store end
+}bind def
+% Guess the page length.
+% This assumes that the imageable area is vertically centered on the page.
+% PLG - length
+/PLG{
+gsave newpath clippath pathbbox grestore
+exch pop add exch pop
+}bind def
+% BP -
+/BP{
+/level0 save def
+1 setlinecap
+1 setlinejoin
+DEFS/BPhook known{DEFS begin BPhook end}if
+72 RES div dup scale
+LS{
+90 rotate
+}{
+0 PL translate
+}ifelse
+1 -1 scale
+}bind def
+/EP{
+level0 restore
+showpage
+}def
+% centerx centery radius startangle endangle DA -
+/DA{
+newpath arcn stroke
+}bind def
+% x y SN - x' y'
+% round a position to nearest (pixel + (.25,.25))
+/SN{
+transform
+.25 sub exch .25 sub exch
+round .25 add exch round .25 add exch
+itransform
+}bind def
+% endx endy startx starty DL -
+% we round the endpoints of the line, so that parallel horizontal
+% and vertical lines will appear even
+/DL{
+SN
+moveto
+SN
+lineto stroke
+}bind def
+% centerx centery radius DC -
+/DC{
+newpath 0 360 arc closepath
+}bind def
+/TM matrix def
+%  width height centerx centery DE -
+/DE{
+TM currentmatrix pop
+translate scale newpath 0 0 .5 0 360 arc closepath
+TM setmatrix
+}bind def
+% these are for splines
+/RC/rcurveto load def
+/RL/rlineto load def
+/ST/stroke load def
+/MT/moveto load def
+/CL/closepath load def
+% fill the last path
+% r g b Fr -
+/Fr{
+setrgbcolor fill
+}bind def
+% c m y k Fk -
+/setcmykcolor where{
+pop
+/Fk{
+setcmykcolor fill
+}bind def
+}if
+% g Fg -
+/Fg{
+setgray fill
+}bind def
+% fill with the "current color"
+/FL/fill load def
+/LW/setlinewidth load def
+/Cr/setrgbcolor load def
+/setcmykcolor where{
+pop
+/Ck/setcmykcolor load def
+}if
+/Cg/setgray load def
+% new_font_name encoding_vector old_font_name RE -
+/RE{
+findfont
+dup maxlength 1 index/FontName known not{1 add}if dict begin
+{
+1 index/FID ne
+2 index/UniqueID ne
+and
+{def}{pop pop}ifelse
+}forall
+/Encoding exch def
+dup/FontName exch def
+currentdict end definefont pop
+}bind def
+/DEFS 0 def
+% hpos vpos EBEGIN -
+/EBEGIN{
+moveto
+DEFS begin
+}bind def
+/EEND/end load def
+/CNT 0 def
+/level1 0 def
+% llx lly newwid wid newht ht newllx newlly PBEGIN -
+/PBEGIN{
+/level1 save def
+translate
+div 3 1 roll div exch scale
+neg exch neg exch translate
+% set the graphics state to default values
+0 setgray
+0 setlinecap
+1 setlinewidth
+0 setlinejoin
+10 setmiterlimit
+[]0 setdash
+/setstrokeadjust where{
+pop
+false setstrokeadjust
+}if
+/setoverprint where{
+pop
+false setoverprint
+}if
+newpath
+/CNT countdictstack def
+userdict begin
+/showpage{}def
+%
+%  Any included setpagedevice should be ignored.
+%  See: http://www.w-beer.de/doc/ps/.
+%
+/setpagedevice{}def
+mark
+}bind def
+/PEND{
+cleartomark
+countdictstack CNT sub{end}repeat
+level1 restore
+}bind def
+end def
+/setpacking where{
+pop
+setpacking
+}if
+%%EndResource
+%%EndProlog
+%%BeginSetup
+%%BeginFeature: *PageSize Default
+<< /PageSize [ 612 792 ] /ImagingBBox null >> setpagedevice
+%%EndFeature
+%%IncludeResource: font Times-Roman
+grops begin/DEFS 1 dict def DEFS begin/u{.001 mul}bind def end/RES 72
+def/PL 792 def/LS false def/ENC0[/asciicircum/asciitilde/Scaron/Zcaron
+/scaron/zcaron/Ydieresis/trademark/quotesingle/Euro/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+/.notdef/.notdef/space/exclam/quotedbl/numbersign/dollar/percent
+/ampersand/quoteright/parenleft/parenright/asterisk/plus/comma/hyphen
+/period/slash/zero/one/two/three/four/five/six/seven/eight/nine/colon
+/semicolon/less/equal/greater/question/at/A/B/C/D/E/F/G/H/I/J/K/L/M/N/O
+/P/Q/R/S/T/U/V/W/X/Y/Z/bracketleft/backslash/bracketright/circumflex
+/underscore/quoteleft/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u/v/w/x/y
+/z/braceleft/bar/braceright/tilde/.notdef/quotesinglbase/guillemotleft
+/guillemotright/bullet/florin/fraction/perthousand/dagger/daggerdbl
+/endash/emdash/ff/fi/fl/ffi/ffl/dotlessi/dotlessj/grave/hungarumlaut
+/dotaccent/breve/caron/ring/ogonek/quotedblleft/quotedblright/oe/lslash
+/quotedblbase/OE/Lslash/.notdef/exclamdown/cent/sterling/currency/yen
+/brokenbar/section/dieresis/copyright/ordfeminine/guilsinglleft
+/logicalnot/minus/registered/macron/degree/plusminus/twosuperior
+/threesuperior/acute/mu/paragraph/periodcentered/cedilla/onesuperior
+/ordmasculine/guilsinglright/onequarter/onehalf/threequarters
+/questiondown/Agrave/Aacute/Acircumflex/Atilde/Adieresis/Aring/AE
+/Ccedilla/Egrave/Eacute/Ecircumflex/Edieresis/Igrave/Iacute/Icircumflex
+/Idieresis/Eth/Ntilde/Ograve/Oacute/Ocircumflex/Otilde/Odieresis
+/multiply/Oslash/Ugrave/Uacute/Ucircumflex/Udieresis/Yacute/Thorn
+/germandbls/agrave/aacute/acircumflex/atilde/adieresis/aring/ae/ccedilla
+/egrave/eacute/ecircumflex/edieresis/igrave/iacute/icircumflex/idieresis
+/eth/ntilde/ograve/oacute/ocircumflex/otilde/odieresis/divide/oslash
+/ugrave/uacute/ucircumflex/udieresis/yacute/thorn/ydieresis]def
+/Times-Roman@0 ENC0/Times-Roman RE
+%%EndSetup
+%%Page: 1 1
+%%BeginPageSetup
+BP
+%%EndPageSetup
+/F0 10/Times-Roman@0 SF .208(dwm \255 dynamic windo)72 12 R 2.708(wm)
+-.25 G .207(anager dwm is a dynamic windo)-2.708 F 2.707(wm)-.25 G .207
+(anager for X. It manages windo)-2.707 F .207(ws in tiled, monocle)-.25
+F .22(and \215oating layouts. Either layout can be applied dynamically)
+72 24 R 2.721(,o)-.65 G .221(ptimising the en)-2.721 F .221
+(vironment for the application in use)-.4 F .127
+(and the task performed.)72 36 R .127(In tiled layouts windo)5.127 F
+.126
+(ws are managed in a master and stacking area. The master area on the)
+-.25 F .675(left contains one windo)72 48 R 3.175(wb)-.25 G 3.176(yd)
+-3.175 G(ef)-3.176 E .676
+(ault, and the stacking area on the right contains all other windo)-.1 F
+.676(ws. The number of)-.25 F 1.111(master area windo)72 60 R 1.111
+(ws can be adjusted from zero to an arbitrary number)-.25 F 3.61(.I)-.55
+G 3.61(nm)-3.61 G 1.11(onocle layout all windo)-3.61 F 1.11(ws are max-)
+-.25 F .664(imised to the screen size. In \215oating layout windo)72 72
+R .665(ws can be resized and mo)-.25 F -.15(ve)-.15 G 3.165(df).15 G
+(reely)-3.165 E 3.165(.D)-.65 G .665(ialog windo)-3.165 F .665
+(ws are al)-.25 F -.1(wa)-.1 G(ys).1 E .296(managed \215oating, re)72 84
+R -.05(ga)-.15 G .296(rdless of the layout applied.).05 F -.4(Wi)5.295 G
+(ndo).4 E .295(ws are grouped by tags. Each windo)-.25 F 2.795(wc)-.25 G
+.295(an be tagged with)-2.795 F .106
+(one or multiple tags. Selecting certain tags displays all windo)72 96 R
+.106(ws with these tags.)-.25 F .106
+(Each screen contains a small status)5.106 F .165
+(bar which displays all a)72 108 R -.25(va)-.2 G .165
+(ilable tags, the layout, the title of the focused windo).25 F 1.465
+-.65(w, a)-.25 H .165(nd the te).65 F .164(xt read from the root win-)
+-.15 F(do)72 120 Q 2.912(wn)-.25 G .412(ame property)-2.912 F 2.912(,i)
+-.65 G 2.912(ft)-2.912 G .412(he screen is focused. A \215oating windo)
+-2.912 F 2.912(wi)-.25 G 2.912(si)-2.912 G .412
+(ndicated with an empty square and a maximised)-2.912 F .115
+(\215oating windo)72 132 R 2.615(wi)-.25 G 2.615(si)-2.615 G .115
+(ndicated with a \214lled square before the windo)-2.615 F .115
+(ws title.)-.25 F .114(The selected tags are indicated with a dif-)5.115
+F .211(ferent color)72 144 R 2.711(.T)-.55 G .212
+(he tags of the focused windo)-2.711 F 2.712(wa)-.25 G .212
+(re indicated with a \214lled square in the top left corner)-2.712 F
+5.212(.T)-.55 G .212(he tags which)-5.212 F .656
+(are applied to one or more windo)72 156 R .655
+(ws are indicated with an empty square in the top left corner)-.25 F
+5.655(.d)-.55 G .655(wm dra)-5.655 F .655(ws a small)-.15 F .577
+(border around windo)72 168 R .578(ws to indicate the focus state.)-.25
+F .578(prints v)5.578 F .578(ersion information to stderr)-.15 F 3.078
+(,t)-.4 G .578(hen e)-3.078 F 3.078(xits. is)-.15 F .578(read and dis-)
+3.078 F .489(played in the status te)72 180 R .488
+(xt area. It can be set with the command.)-.15 F .488
+(click on a tag label to display all windo)5.488 F .488(ws with that)
+-.25 F .849(tag, click on the layout label toggles between tiled and \
+\215oating layout.)72 192 R .849(click on a tag label adds/remo)5.849 F
+-.15(ve)-.15 G 3.349(sa).15 G .849(ll win-)-3.349 F(do)72 204 Q .21
+(ws with that tag to/from the vie)-.25 F 4.01 -.65(w. c)-.25 H .21
+(lick on a tag label applies that tag to the focused windo).65 F 4.01
+-.65(w. c)-.25 H .21(lick on a tag label).65 F(adds/remo)72 216 Q -.15
+(ve)-.15 G 4.152(st).15 G 1.653(hat tag to/from the focused windo)-4.152
+F 5.453 -.65(w. S)-.25 H 1.653(tart Spa).65 F 1.653
+(wn for launching other programs.)-.15 F -.15(Fo)6.653 G 1.653(cus pre)
+.15 F(vious)-.25 E .286(screen, if an)72 228 R 4.086 -.65(y. F)-.15 H
+.286(ocus ne).5 F .286(xt screen, if an)-.15 F 4.086 -.65(y. S)-.15 H
+.286(end focused windo).65 F 2.786(wt)-.25 G 2.786(op)-2.786 G(re)-2.786
+E .286(vious screen, if an)-.25 F 4.085 -.65(y. S)-.15 H .285
+(end focused windo).65 F 2.785(wt)-.25 G(o)-2.785 E(ne)72 240 Q .771
+(xt screen, if an)-.15 F 4.571 -.65(y. T)-.15 H .771
+(oggles bar on and of)-.15 F 3.272(f. Sets)-.25 F .772(tiled layout.)
+3.272 F .772(Sets \215oating layout.)5.772 F .772(Sets monocle layout.)
+5.772 F -.8(To)5.772 G(ggles).8 E .202(between current and pre)72 252 R
+.202(vious layout.)-.25 F -.15(Fo)5.202 G .201(cus ne).15 F .201
+(xt windo)-.15 F 4.001 -.65(w. F)-.25 H .201(ocus pre).5 F .201
+(vious windo)-.25 F 4.001 -.65(w. I)-.25 H .201(ncrease number of windo)
+.65 F .201(ws in)-.25 F 1.065(master area.)72 264 R 1.065
+(Decrease number of windo)6.065 F 1.066(ws in master area.)-.25 F 1.066
+(Increase master area size.)6.066 F 1.066(Decrease master area size.)
+6.066 F(Zooms/c)72 276 Q 1.445(ycles focused windo)-.15 F 3.945(wt)-.25
+G 1.445(o/from master area \(tiled layouts only\).)-3.945 F 1.444
+(Close focused windo)6.444 F 5.244 -.65(w. T)-.25 H 1.444(oggle focused)
+-.15 F(windo)72 288 Q 2.775(wb)-.25 G .276
+(etween tiled and \215oating state.)-2.775 F -.8(To)5.276 G .276
+(ggles to the pre).8 F .276(viously selected tags.)-.25 F .276
+(Apply nth tag to focused windo)5.276 F -.65(w.)-.25 G .89
+(Apply all tags to focused windo)72 300 R 4.69 -.65(w. A)-.25 H(dd/remo)
+.65 E 1.19 -.15(ve n)-.15 H .89(th tag to/from focused windo).15 F 4.69
+-.65(w. V)-.25 H(ie).05 E 3.39(wa)-.25 G .89(ll windo)-3.39 F .89
+(ws with nth tag.)-.25 F -.6(Vi)72 312 S .835 -.25(ew a).6 H .335
+(ll windo).25 F .335(ws with an)-.25 F 2.835(yt)-.15 G 2.835
+(ag. Add/remo)-2.835 F .635 -.15(ve a)-.15 H .335(ll windo).15 F .336
+(ws with nth tag to/from the vie)-.25 F 4.136 -.65(w. Q)-.25 H .336
+(uit dwm.).65 F(Mo)5.336 E .636 -.15(ve f)-.15 H(ocused).15 E(windo)72
+324 Q 2.584(ww)-.25 G .084(hile dragging. T)-2.584 F .083(iled windo)
+-.35 F .083(ws will be toggled to the \215oating state.)-.25 F -.8(To)
+5.083 G .083(ggles focused windo).8 F 2.583(wb)-.25 G .083
+(etween \215oat-)-2.583 F 1.421(ing and tiled state.)72 336 R 1.421
+(Resize focused windo)6.421 F 3.921(ww)-.25 G 1.421(hile dragging. T)
+-3.921 F 1.421(iled windo)-.35 F 1.421
+(ws will be toggled to the \215oating state.)-.25 F .599(dwm is customi\
+zed by creating a custom con\214g.h and \(re\)compiling the source code\
+. This k)72 348 R .599(eeps it f)-.1 F .598(ast, secure and)-.1 F 7.231
+(simple. Ja)72 360 R 5.231 -.25(va a)-.2 H 4.731
+(pplications which use the XT).25 F(oolkit/XA)-.8 E 4.732(WT back)-.9 F
+4.732(end may dra)-.1 F 7.232(wg)-.15 G(re)-7.232 E 7.232(yw)-.15 G
+(indo)-7.232 E 4.732(ws only)-.25 F 7.232(.T)-.65 G(he)-7.232 E(XT)72
+372 Q(oolkit/XA)-.8 E .596(WT back)-.9 F .595
+(end breaks ICCCM-compliance in recent JDK 1.5 and early JDK 1.6 v)-.1 F
+.595(ersions, because it as-)-.15 F 2.915(sumes a reparenting windo)72
+384 R 5.415(wm)-.25 G(anager)-5.415 E 5.416(.P)-.55 G 2.916(ossible w)
+-5.416 F 2.916(orkarounds are using JDK 1.4 \(which doesn')-.1 F 5.416
+(tc)-.18 G 2.916(ontain the)-5.416 F(XT)72 396 Q(oolkit/XA)-.8 E .109
+(WT back)-.9 F .109(end\) or setting the en)-.1 F .109(vironment v)-.4 F
+.109(ariable \(to use the older Motif back)-.25 F .108
+(end instead\) or running or)-.1 F .621
+(\(to pretend that a non-reparenting windo)72 408 R 3.121(wm)-.25 G .621
+(anager is running that the XT)-3.121 F(oolkit/XA)-.8 E .622(WT back)-.9
+F .622(end can recognize\) or)-.1 F(when using OpenJDK setting the en)72
+420 Q(vironment v)-.4 E(ariable Send all b)-.25 E
+(ug reports with a patch to hack)-.2 E(ers@suckless.or)-.1 E(g.)-.18 E 0
+Cg EP
+%%Trailer
+end
+%%EOF
