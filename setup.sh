@@ -1,13 +1,13 @@
 #!/bin/sh
 
-sudo sleep 0
-
 sudo xbps-install -y xorg libX11 libX11-devel libXinerama libXinerama-devel libXft libXft-devel libXrandr libXrandr-devel libuuid libuuid-devel pkg-config make font-awesome terminus-font vim ranger
 
 mv .xinitrc ~/.xinitrc
 mv .bashrc ~/.bashrc
 mv .bash_profile ~/.bash_profile
 mv .vimrc ~/.vimrc
+
+sudo mv dwmbar_date /usr/local/bin/dwmbar_date
 
 cd dwm/ || exit
 sudo make clean install
