@@ -1,6 +1,6 @@
 #!/bin/sh
 
-sudo xbps-install -y xorg libX11 libX11-devel libXinerama libXinerama-devel libXft libXft-devel libXrandr libXrandr-devel libuuid libuuid-devel pkg-config make font-awesome terminus-font vim ranger
+sudo xbps-install -y gcc libgcc libgcc-devel gcr gcr-devel xorg libX11 libX11-devel libXinerama libXinerama-devel libXft libXft-devel libXrandr libXrandr-devel libuuid libuuid-devel pkg-config make font-awesome terminus-font vim ranger neofetch feh
 
 mv .xinitrc ~/.xinitrc
 mv .bashrc ~/.bashrc
